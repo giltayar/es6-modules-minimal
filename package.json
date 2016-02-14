@@ -1,0 +1,24 @@
+{
+  "name": "es6-modules-minimal",
+  "version": "1.0.0",
+  "description": "Try out es6 module support in node using babel/webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack public/main.js dist/bundle.js"
+  },
+  "keywords": [
+    "babel",
+    "webpack",
+    "try",
+    "es6",
+    "modules",
+    "es2015"
+  ],
+  "author": "Gil Tayar <gil@tayar.org>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-register": "^6.5.2",
+    "lodash": "^4.3.0"
+  }
+}
